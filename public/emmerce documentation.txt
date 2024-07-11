@@ -1,0 +1,20 @@
+rice, sunflower, sorghum, lentils, corn
+devnotez.com/2023/07/20/laravel-admini-user-login-multi-auth-in-laravel-10
+
+for e commerce
+1.composer require laravel/jetstream
+2.php artisan jetstream:install livewire
+3.npm install
+4.npm run dev
+5.change in the database 
+6.php artisan migrate
+
+ecommerce
+change in db, user table ,model,actions->controller,view
+
+provider->routeservice
+
+
+// route provider then routeervicesProvider and config>fortify to update routes
+in jstream
+actions then fortify
